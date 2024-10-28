@@ -38,7 +38,7 @@ public class Reservation {
 
     public boolean weekend() {
         this.weekend = weekend;
-
+        return weekend;
     }
 
     public double getReservationAmount() {
