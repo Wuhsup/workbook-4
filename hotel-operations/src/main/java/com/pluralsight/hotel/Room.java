@@ -1,7 +1,5 @@
 package com.pluralsight.hotel;
 
-import java.util.Scanner;
-
 public class Room {
     private int numOfBeds;
     private double price;
