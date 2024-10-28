@@ -4,7 +4,7 @@ public class Room {
     private int numOfBeds;
     private double price;
     private boolean isOccupied;
-    private boolean isClean
+    private boolean isClean;
     private boolean isAvailable;
 
     public Room(int numOfBeds, double price, boolean isOccupied, boolean isClean, boolean isAvailable) {
@@ -12,7 +12,7 @@ public class Room {
         this.price = price;
         this.isOccupied = isOccupied;
         this.isClean = isClean;
-        this.isAvailable = isAvailable
+        this.isAvailable = isAvailable;
     }
 
     public int getNumOfBeds(){
