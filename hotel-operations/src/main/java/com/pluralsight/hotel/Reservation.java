@@ -36,9 +36,8 @@ public class Reservation {
         this.numOfNights = numOfNights;
     }
 
-    public boolean weekend() {
+    public void weekend() {
         this.weekend = weekend;
-        return weekend;
     }
 
     public double getReservationAmount() {
